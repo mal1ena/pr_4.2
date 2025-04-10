@@ -1,0 +1,145 @@
+select * where {
+    ?s ?p ?o .
+} limit 100
+
+
+
+
+select * where {
+    <http://academy.ontotext.com/imdb/title/PiratesoftheCaribbeanAtWorldsEnd> ?p ?o .
+}
+
+
+
+
+PREFIX imdb: <http://academy.ontotext.com/imdb/>
+
+select * where {
+    imdb:title\/PiratesoftheCaribbeanAtWorldsEnd ?p ?o .
+}
+
+
+
+
+
+PREFIX imdb: <http://academy.ontotext.com/imdb/>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?movie ?name ?commentCount
+WHERE {
+  ?movie a imdb:ColorMovie ;
+           schema:name ?name ;
+           schema:commentCount ?commentCount .
+}
+ORDER BY DESC(?commentCount)
+LIMIT 100
+
+
+
+
+PREFIX imdb: <http://academy.ontotext.com/imdb/>
+PREFIX schema: <http://schema.org/>
+
+SELECT * { 
+    ?movie a imdb:ColorMovie ;
+           schema:name ?movieName ;
+           schema:commentCount ?commentCount .
+} ORDER BY DESC(?commentCount)
+
+
+
+
+PREFIX schema: <http://schema.org/>
+PREFIX imdb: <http://academy.ontotext.com/imdb/>
+
+SELECT * { 
+	?movie schema:director ?person ;
+           imdb:leadActor ?person .
+} ORDER BY ?person
+
+
+
+
+PREFIX schema: <http://schema.org/>
+PREFIX imdb: <http://academy.ontotext.com/imdb/>
+
+SELECT ?person (COUNT(?movie) as ?numMovies) { 
+	?movie schema:director ?person ;
+           imdb:leadActor ?person .
+} GROUP BY ?person ORDER BY DESC(?numMovies)
+
+
+
+
+PREFIX imdb: <http://academy.ontotext.com/imdb/>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?person ?personName (COUNT(?movie) AS ?numMovies)
+WHERE {
+  ?movie schema:name ?name ;
+           schema:director ?person ;
+           imdb:leadActor ?person .
+  ?person schema:name ?personName .
+}
+GROUP BY ?person ?personName
+ORDER BY DESC(?numMovies)
+LIMIT 100
+
+
+
+
+PREFIX schema: <http://schema.org/>
+
+SELECT ?movieTitle WHERE {
+  ?movie a schema:Movie ;
+         schema:name ?movieTitle ;
+         schema:commentCount ?commentCount .
+  FILTER (?commentCount > 200)
+}
+
+
+
+
+PREFIX schema: <http://schema.org/>
+
+SELECT ?movieTitle WHERE {
+  ?movie a schema:Movie ;
+         schema:name ?movieTitle ;
+         schema:datePublished ?date .
+  FILTER (YEAR(?date) >= 2000 && YEAR(?date) <= 2009)
+
+
+
+
+PREFIX schema: <http://schema.org/>
+
+SELECT ?directorName (COUNT(?movie) AS ?movieCount) WHERE {
+  ?movie a schema:Movie ;
+         schema:director ?director .
+  ?director schema:name ?directorName .
+}
+GROUP BY ?directorName
+HAVING (COUNT(?movie) > 5)
+
+
+
+
+PREFIX schema: <http://schema.org/>
+
+SELECT ?movieTitle WHERE {
+  ?movie a schema:Movie ;
+         schema:name ?movieTitle ;
+         schema:actor ?actor .
+  ?actor schema:name "Johnny Depp" .
+
+
+
+
+PREFIX schema: <http://schema.org/>
+
+SELECT ?movieTitle ?commentCount WHERE {
+  ?movie a schema:Movie ;
+         schema:name ?movieTitle ;
+         schema:commentCount ?commentCount .
+}
+ORDER BY DESC(?commentCount)
