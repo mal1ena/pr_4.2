@@ -1,0 +1,1552 @@
+{
+  "head" : {
+    "vars" : [
+      "directorName",
+      "movieCount"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "James Cameron"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Gore Verbinski"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Sam Mendes"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Christopher Nolan"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Sam Raimi"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "11"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Zack Snyder"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Bryan Singer"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Marc Forster"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Barry Sonnenfeld"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Peter Jackson"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Ridley Scott"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "16"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Peter Berg"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Tim Burton"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "14"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Brett Ratner"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Michael Bay"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "12"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Martin Campbell"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "McG"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "James Wan"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Mike Newell"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Steven Spielberg"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "26"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Roland Emmerich"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Robert Zemeckis"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "13"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Lana Wachowski"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Jon Favreau"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Martin Scorsese"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "20"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Rob Cohen"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "David Ayer"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Tom Shadyac"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Doug Liman"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "David Fincher"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Jon Turteltaub"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Wolfgang Petersen"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Michael Apted"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Oliver Stone"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "14"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Shawn Levy"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "11"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "George Miller"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Ron Howard"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "13"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Kenneth Branagh"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "M. Night Shyamalan"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Joe Wright"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Edward Zwick"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Richard Donner"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "11"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Ang Lee"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Louis Leterrier"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Alejandro G. Iñárritu"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Paul Greengrass"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Phillip Noyce"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Darren Aronofsky"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Chris Columbus"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "11"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Robert Schwentke"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Guy Ritchie"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "John McTiernan"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Joel Schumacher"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "13"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "John Woo"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Tim Story"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "James Mangold"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Roger Donaldson"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Steven Soderbergh"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "15"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Raja Gosnell"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Frank Coraci"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Michael Mann"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Tony Scott"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "12"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Paul Weitz"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Adam McKay"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Chuck Russell"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Quentin Tarantino"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Simon West"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Peter Hyams"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Yimou Zhang"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Frank Oz"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Jay Roach"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Mark Waters"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Renny Harlin"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "15"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Dennis Dugan"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Brian De Palma"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "12"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Paul W.S. Anderson"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Peter Segal"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "George A. Romero"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Todd Phillips"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Adam Shankman"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Ivan Reitman"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Stephen Hopkins"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Terry Gilliam"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Joe Dante"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "John Singleton"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Mike Nichols"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "F. Gary Gray"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Antoine Fuqua"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Robert Luketic"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Barry Levinson"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "13"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Andy Tennant"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Garry Marshall"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Cameron Crowe"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Bobby Farrelly"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Clint Eastwood"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "20"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Stanley Kubrick"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Taylor Hackford"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Roman Polanski"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Rob Reiner"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "11"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Brian Robbins"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Brian Levant"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "David O. Russell"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Harold Ramis"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Donald Petrie"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Stephen Herek"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "William Friedkin"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Francis Ford Coppola"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "11"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Robert Rodriguez"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "13"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Curtis Hanson"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Neil Jordan"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Spike Lee"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "16"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Jaume Collet-Serra"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Andy Fickman"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Gary Fleder"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Danny Boyle"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "John Carpenter"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Wes Anderson"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "David Cronenberg"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "David Gordon Green"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Stephen Frears"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Gus Van Sant"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Catherine Hardwicke"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Wes Craven"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Malcolm D. Lee"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Paul Thomas Anderson"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Ethan Coen"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Kevin Smith"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "12"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Lasse Hallström"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Woody Allen"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "22"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Richard Linklater"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "11"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Michael Winterbottom"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Tyler Perry"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Atom Egoyan"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Sidney Lumet"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Mel Brooks"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Alfred Hitchcock"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Michael Moore"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "James Ivory"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Paul Schrader"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      },
+      {
+        "directorName" : {
+          "type" : "literal",
+          "value" : "Guy Hamilton"
+        },
+        "movieCount" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        }
+      }
+    ]
+  }
+}

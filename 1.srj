@@ -1,0 +1,1413 @@
+{
+  "head" : {
+    "vars" : [
+      "s",
+      "p",
+      "o"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#TransitiveProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#TransitiveProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#domain"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#range"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#equivalentProperty"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#SymmetricProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#equivalentProperty"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#TransitiveProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#equivalentClass"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#SymmetricProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#equivalentClass"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#TransitiveProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://proton.semanticweb.org/protonsys#transitiveOver"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#inverseOf"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#inverseOf"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#SymmetricProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#differentFrom"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#SymmetricProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#Ontology"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://purl.org/dc/elements/1.1/title"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://purl.org/dc/elements/1.1/description"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#imports"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/leadActor"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/leadActor"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://purl.org/dc/elements/1.1/label"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://purl.org/dc/elements/1.1/comment"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://schema.org/actor"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://schema.org/name"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Avatar"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Avatar"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://schema.org/genre"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://schema.org/commentCount"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://schema.org/countryOfOrigin"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://schema.org/director"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/PiratesoftheCaribbeanAtWorldsEnd"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/PiratesoftheCaribbeanAtWorldsEnd"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Spectre"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Spectre"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheDarkKnightRises"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheDarkKnightRises"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/JohnCarter"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/JohnCarter"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/SpiderMan3"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/SpiderMan3"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Tangled"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Tangled"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/AvengersAgeofUltron"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/AvengersAgeofUltron"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/HarryPotterandtheHalfBloodPrince"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/HarryPotterandtheHalfBloodPrince"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/BatmanvSupermanDawnofJustice"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/BatmanvSupermanDawnofJustice"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/SupermanReturns"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/SupermanReturns"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/QuantumofSolace"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/QuantumofSolace"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/PiratesoftheCaribbeanDeadMansChest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/PiratesoftheCaribbeanDeadMansChest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheLoneRanger"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheLoneRanger"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/ManofSteel"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/ManofSteel"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheChroniclesofNarniaPrinceCaspian"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheChroniclesofNarniaPrinceCaspian"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheAvengers"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheAvengers"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/PiratesoftheCaribbeanOnStrangerTides"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/PiratesoftheCaribbeanOnStrangerTides"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/MeninBlack3"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/MeninBlack3"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheHobbitTheBattleoftheFiveArmies"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheHobbitTheBattleoftheFiveArmies"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheAmazingSpiderMan"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheAmazingSpiderMan"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/RobinHood"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/RobinHood"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheHobbitTheDesolationofSmaug"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheHobbitTheDesolationofSmaug"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheGoldenCompass"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/TheGoldenCompass"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/KingKong"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/KingKong"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Titanic"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Titanic"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/CaptainAmericaCivilWar"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/CaptainAmericaCivilWar"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Battleship"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/title/Battleship"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      }
+    ]
+  }
+}

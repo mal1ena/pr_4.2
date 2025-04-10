@@ -1,0 +1,143 @@
+{
+  "head" : {
+    "vars" : [
+      "p",
+      "o"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://schema.org/Movie"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/ColorMovie"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/leadActor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/person/JohnnyDepp"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/person/JohnnyDepp"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/person/OrlandoBloom"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/person/JackDavenport"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/name"
+        },
+        "o" : {
+          "type" : "literal",
+          "value" : "Pirates of the Caribbean: At World's End"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/genre"
+        },
+        "o" : {
+          "type" : "literal",
+          "value" : "Action"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/genre"
+        },
+        "o" : {
+          "type" : "literal",
+          "value" : "Adventure"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/genre"
+        },
+        "o" : {
+          "type" : "literal",
+          "value" : "Fantasy"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/commentCount"
+        },
+        "o" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "302"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/countryOfOrigin"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/country/USA"
+        }
+      },
+      {
+        "p" : {
+          "type" : "uri",
+          "value" : "http://schema.org/director"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://academy.ontotext.com/imdb/person/GoreVerbinski"
+        }
+      }
+    ]
+  }
+}

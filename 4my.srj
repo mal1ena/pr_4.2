@@ -1,0 +1,227 @@
+{
+  "head" : {
+    "vars" : [
+      "movieTitle"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Pirates of the Caribbean: At World's End"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Pirates of the Caribbean: Dead Man's Chest"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "The Lone Ranger"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Pirates of the Caribbean: On Stranger Tides"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Alice in Wonderland"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Alice Through the Looking Glass"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Charlie and the Chocolate Factory"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Dark Shadows"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Rango"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Pirates of the Caribbean: The Curse of the Black Pearl"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Public Enemies"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "The Tourist"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Transcendence"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Mortdecai"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Black Mass"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Into the Woods"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "From Hell"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Secret Window"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "The Ninth Gate"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "A Nightmare on Elm Street"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Donnie Brasco"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "The Astronaut's Wife"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Blow"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Corpse Bride"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Once Upon a Time in Mexico"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Finding Neverland"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Don Juan DeMarco"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "The Libertine"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Edward Scissorhands"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Fear and Loathing in Las Vegas"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Ed Wood"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "What's Eating Gilbert Grape"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Platoon"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Freddy's Dead: The Final Nightmare"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Yoga Hosers"
+        }
+      },
+      {
+        "movieTitle" : {
+          "type" : "literal",
+          "value" : "Tusk"
+        }
+      }
+    ]
+  }
+}
